@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+</head>
+
+<body>
+    <div id="root">
+        {{name}}
+    <div v-show="false">ffff</div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+</html>
+<script>
+    new Vue({
+        el: "#root",
+        data: {
+            name: '张三'
+        }
+    })
+</script>
